@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+section {
+    padding-top: 100px;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -13,6 +17,7 @@ h2 {
 
 .donate-today {
     text-align: center;
+    margin-top: 50px;
 }
 
 .amount-button {
@@ -38,12 +43,42 @@ h2 {
     text-align: center;
 }
 
-.donate-button {
+.donate-now {
+    padding: 20px 30px;
     background-image: linear-gradient(tomato, orange);
-    padding: 20px 40px;
+    width: 120px;
+    text-align: center;
     color: white;
+    border-radius: 15px;
+    margin-left: 45%;
+    margin-top: 20px;
+}
 
+.food-item {
+    display: flex;
+}
 
+.foodFamily {
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 20x;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
 
+#shelter-family {
+    background-color: lightpink;
+    border-radius: 5px;
+}
 
+#food-for-family {
+    background-color: #b6f0e4;
+    border-radius: 5px;
+}
+
+#education-child {
+    background-color: #faf0e6;
+    border-radius: 5px;
 }
