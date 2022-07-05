@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.amount-button {
+    display: flex;
+
+}
+
+.number-of-amount {
+    padding: 20px 40px;
+    margin: 20px 40px 10px 40px;
+    background-color: azure;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#twoButton {
+    border: 3px solid rebeccapurple;
+    color: red;
+}
+
+.otherAmount {
+    text-align: center;
+}
+
+.donate-button {
+    background-image: linear-gradient(tomato, orange);
+    padding: 20px 40px;
+    color: white;
+
+
+
+
+}
