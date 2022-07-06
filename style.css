@@ -72,7 +72,6 @@ input {
     text-align: center;
 }
 
-
 .need-suvive {
     display: flex;
     margin-top: 100px;
@@ -149,14 +148,12 @@ input {
     text-align: center;
     color: blueviolet;
     font-size: 30px;
-
 }
 
 .photo-gellary-imgage {
     text-align: center;
     padding: 15px;
     margin-left: 30px;
-
 }
 
 .photo-gellary-imgage img {
@@ -165,10 +162,7 @@ input {
     border: 1px solid blanchedalmond;
     border-radius: 10px;
     padding: 15px;
-
 }
-
-
 
 .email-button {
     background-color: rgb(243, 236, 173);
@@ -179,37 +173,21 @@ input {
     height: 150px;
     margin-bottom: 50px;
     margin-top: 50px;
+    border: 1px solid gray;
 }
 
-input[type=email],
-[type=submit] {
-    width: 40%;
-    padding-left: 15px;
-    margin-top: 50px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    background-color: aquamarine;
-    height: 50px;
-
+.email-button input {
+    background-color: gainsboro;
+    border-radius: 10px;
 }
-
-
-.input-type {
-    width: 20px;
-    height: 10px;
-}
-
 
 .sub-button {
     width: 150px;
-    height: 40px;
+    height: 55px;
     background-color: coral;
-    margin-left: 67%;
-    margin-top: -53px;
-    height: 48px;
-    border: 2px solid coral;
-    border-radius: 4px;
-
+    margin-right: 20px;
+    border: hidden;
+    border-radius: 10px;
 }
 
 footer {
