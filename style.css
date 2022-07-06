@@ -62,6 +62,32 @@ h2 {
     text-align: center;
 }
 
+input {
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    width: 50%;
+    height: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.need-suvive {
+    display: flex;
+    margin-top: 100px;
+}
+
+#donateImage img {
+    width: 60%;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.donate-main {
+    padding-top: 50px;
+}
+
 .donate-now {
     padding: 20px 30px;
     background-image: linear-gradient(tomato, orange);
@@ -133,6 +159,8 @@ h2 {
     padding: 15px;
 
 }
+
+
 
 .email-button {
     background-color: rgb(243, 236, 173);
