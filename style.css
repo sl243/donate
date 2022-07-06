@@ -34,6 +34,11 @@ h2 {
     margin-top: 50px;
 }
 
+.input-type {
+    padding-top: 60px;
+
+}
+
 .amount-button {
     display: flex;
 
@@ -61,11 +66,15 @@ h2 {
     padding: 20px 30px;
     background-image: linear-gradient(tomato, orange);
     width: 120px;
-    text-align: center;
     color: white;
     border-radius: 15px;
-    margin-left: 45%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 20px;
+}
+
+#buttonNow {
+    margin-left: 45%;
 }
 
 .food-item {
@@ -96,6 +105,17 @@ h2 {
 #education-child {
     background-color: #faf0e6;
     border-radius: 5px;
+}
+
+.email-button {
+    background-color: rgb(243, 236, 173);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 footer {
