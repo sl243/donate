@@ -107,6 +107,14 @@ input {
     display: flex;
 }
 
+.donateParagraph {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
 .foodFamily {
     padding-left: 20px;
     padding-top: 50px;
@@ -175,8 +183,8 @@ input {
 
 input[type=email],
 [type=submit] {
-    width: 50%;
-    padding-left: 25px;
+    width: 40%;
+    padding-left: 15px;
     margin-top: 50px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -189,6 +197,19 @@ input[type=email],
 .input-type {
     width: 20px;
     height: 10px;
+}
+
+
+.sub-button {
+    width: 150px;
+    height: 40px;
+    background-color: coral;
+    margin-left: 67%;
+    margin-top: -53px;
+    height: 48px;
+    border: 2px solid coral;
+    border-radius: 4px;
+
 }
 
 footer {
