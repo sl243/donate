@@ -3,16 +3,30 @@ body {
     margin: 0;
 }
 
-section {
-    padding-top: 100px;
-}
-
 h1 {
     font-size: 50px;
 }
 
 h2 {
     font-size: 30px;
+}
+
+.titleMessageTop {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.titleMessageTop img {
+    width: 100%;
+    height: 600px;
+    opacity: .8;
+}
+
+.titleMessage {
+    position: absolute;
+    top: 25%;
+    left: 30%;
 }
 
 .donate-today {
